@@ -2,18 +2,15 @@ $(call inherit-product, device/xiaomi/chiron/full_chiron.mk)
 
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/xenonhd/config/common_full_phone.mk)
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := chiron
-PRODUCT_NAME := xenonhd_chiron
+PRODUCT_NAME := lineage_chiron
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := MI Mix 2
 TARGET_VENDOR := xiaomi
-
-# Root options
-ROOT_METHOD := magisk
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
